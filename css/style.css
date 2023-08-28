@@ -1,0 +1,33 @@
+@font-face {
+  font-family: SourceHanSansSC;
+  src: url('/fonts/SourceHanSansCN-Regular.woff2');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'SourceHanSansSC', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.form-label {
+  font-size: large;
+}
+
+.compress-ratio {
+  display: flex;
+}
+
+#selected_pdf_container {
+  margin: 20px 0 20px 0;
+}
