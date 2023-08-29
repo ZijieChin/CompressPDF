@@ -1,4 +1,4 @@
-module changeme
+module pdfcompress
 
 go 1.18
 
