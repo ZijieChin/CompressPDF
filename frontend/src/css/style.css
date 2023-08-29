@@ -17,7 +17,7 @@ body {
 }
 
 .title {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .form-label {
@@ -30,4 +30,9 @@ body {
 
 #selected_pdf_container {
   margin: 20px 0 20px 0;
+}
+
+#selected_pdf_list {
+  max-height: 50px;
+  overflow-y: scroll;
 }
